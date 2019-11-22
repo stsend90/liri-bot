@@ -1,6 +1,7 @@
 # liri-bot
 
 ## Summary
+Liri is a one-stop command line node app that takes in parameters for songs, bands, and movies and returns relevant data.
 
 This application will take in the following commands:
 
