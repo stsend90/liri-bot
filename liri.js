@@ -55,23 +55,26 @@ function getSpotify(songName){
 };
 
 function getBandsInTown(artist){
-    if(!artist)
-        artist = "Eminem"
-    
-    let queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+    if(!artist){
+        artist = "NF";
+    };
+    let bandQueryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
-    axios.get(queryURL).then(
-        function(response){
-        console.log("=====================");
-        console.log("Name of the venue: " + response.data[0].venue.name + "\r\n");
-        console.log("Venue Location: " + response.data[0].venue.city + "\r\n");
-        console.log("Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\r\n");
-        let logConcert = "========Begin Concert Log Entry========" + "\nName of the musician: " + artist + "\nName of the venue: " + response.data[0].venue.name + "\nVenue location: " + response.data[0].venue.city + "\n Date of event: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\n======End Concert Log Entry======" + "\n";
-        fs.appendFile("log.txt", logConcert, function(err){
-            if(err) throw err;
+    axios.get(bandQueryURL).then(
+        // console.log(queryURL)
+        function(bandResponse){
+            console.log("=====================");
+            // console.log(bandResponse)
+            console.log("Name of the venue: " + bandResponse.data[0].venue.name + "\r\n");
+            console.log("Venue Location: " + bandResponse.data[0].venue.city + "\r\n");
+            console.log("Date of event: " + moment(bandResponse.data[0].datetime).format("MM-DD-YYYY") + "\r\n");
+            let logConcert = "========Begin Concert Log Entry========" + "\nName of the musician: " + artist + "\nName of the venue: " + bandResponse.data[0].venue.name + "\nVenue location: " + bandResponse.data[0].venue.city + "\n Date of event: " + moment(bandResponse.data[0].datetime).format("MM-DD-YYYY") + "\n======End Concert Log Entry======" + "\n";
+            fs.appendFile("log.txt", logConcert, function(err){
+                if(err) throw err;
+            });
         });
-    });
 };
+
 
 function getOMDB(movie){
     if (!movie){
