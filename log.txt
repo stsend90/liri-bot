@@ -184,3 +184,37 @@ Name of the venue: Amway Center
 Venue location: Orlando
  Date of event: 11-22-2019
 ======End Concert Log Entry======
+========Begin Concert Log Entry========
+Name of the musician: madonna
+Name of the venue: The Wiltern
+Venue location: Los Angeles
+ Date of event: 11-23-2019
+======End Concert Log Entry======
+======Begin Movie Log Entry======
+Movie title: The Last Samurai
+Year released: 2003
+IMDB rating: 7.7
+Rotten Tomatoes rating: 66%
+Country where produced: USA, New Zealand, Japan
+Language: English, Japanese
+Plot: An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.
+Actors: Ken Watanabe, Tom Cruise, William Atherton, Chad Lindberg
+======End Movie Log Entry======
+======Begin Spotify Log Engry======
+Artist: NF
+Song Name: The Search
+ Preview Link: https://api.spotify.com/v1/tracks/2OKo7g3KfmCt3kyLvUAL0g
+Album Name: The Search
+======End Spotify Log Entry======
+======Begin Spotify Log Engry======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======End Spotify Log Entry======
+========Begin Concert Log Entry========
+Name of the musician: madonna
+Name of the venue: The Wiltern
+Venue location: Los Angeles
+ Date of event: 11-23-2019
+======End Concert Log Entry======
