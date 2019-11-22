@@ -55,11 +55,12 @@ function getSpotify(songName){
 };
 
 function getBandsInTown(artist){
-    if(!artist){
+    if(!artist)
         artist = "Eminem"
-    };
-    let bandQueryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-    axios.get(bandQueryURL).then(
+    
+    let queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+
+    axios.get(queryURL).then(
         function(response){
         console.log("=====================");
         console.log("Name of the venue: " + response.data[0].venue.name + "\r\n");

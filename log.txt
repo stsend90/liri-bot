@@ -52,3 +52,35 @@ Song Name: I Want It That Way
  Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
 Album Name: The Hits--Chapter One
 ======End Spotify Log Entry======
+======Begin Movie Log Entry======
+Movie title: 300
+Year released: 2006
+IMDB rating: 7.7
+Rotten Tomatoes rating: 60%
+Country where produced: USA, Canada, Bulgaria
+Language: English
+Plot: King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.
+Actors: Gerard Butler, Lena Headey, Dominic West, David Wenham
+======End Movie Log Entry======
+======Begin Spotify Log Engry======
+Artist: Darude
+Song Name: Sandstorm - Radio Edit
+ Preview Link: https://api.spotify.com/v1/tracks/24CXuh2WNpgeSYUOvz14jk
+Album Name: Before The Storm
+======End Spotify Log Entry======
+======Begin Spotify Log Engry======
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+Album Name: The Hits--Chapter One
+======End Spotify Log Entry======
+======Begin Movie Log Entry======
+Movie title: 300
+Year released: 2006
+IMDB rating: 7.7
+Rotten Tomatoes rating: 60%
+Country where produced: USA, Canada, Bulgaria
+Language: English
+Plot: King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.
+Actors: Gerard Butler, Lena Headey, Dominic West, David Wenham
+======End Movie Log Entry======
