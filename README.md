@@ -17,9 +17,10 @@ Each search displays relevant information for the searched item and is added to 
 
 ## Link to screenshot:
 [LIRI Bot img1](https://gyazo.com/050c4f5571381ad252d63f2d466219b0)
+![Image description](https://github.com/stsend90/liri-bot/blob/master/images/image2.png)
 
 [LIRI Bot img2](https://gyazo.com/03b99a8cfb4376868b21870ed71bb440)
-
+![Image description](https://github.com/stsend90/liri-bot/blob/master/images/image1.png)
 ### Technologies Used:
 * Node.js
 * Javascript
