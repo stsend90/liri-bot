@@ -16,9 +16,11 @@ This application will take in the following commands:
 Each search displays relevant information for the searched item and is added to the searches.txt file.
 
 ## Link to screenshot:
-[LIRI Bot img1] (https://gyazo.com/050c4f5571381ad252d63f2d466219b0)
+[LIRI Bot img1](https://gyazo.com/050c4f5571381ad252d63f2d466219b0)
 
-[LIRI Bot img2] (https://gyazo.com/03b99a8cfb4376868b21870ed71bb440)
+
+[LIRI Bot img2](https://gyazo.com/03b99a8cfb4376868b21870ed71bb440)
+![Image description](https://gyazo.com/03b99a8cfb4376868b21870ed71bb440)
 ### Technologies Used:
 * Node.js
 * Javascript
